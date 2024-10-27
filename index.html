@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+
+<button class="open-sidebar-btn" onclick="toggleSidebar()">Perfil</button>
+
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-content">
+        
+        <table>
+            <tr>
+                <td>
+                    <button class="close-sidebar-btn" onclick="toggleSidebar()">
+                        <img src="arrow.png" alt="Fechar Sidebar" class="arrow-icon">
+                    </button>
+                </td>
+                <td>
+                    <img src="5312933.png" height="70">
+                </td>
+                <td>
+                    <h1>Perfil</h1>
+                </td>
+            </tr>
+        </table>
+<div class="basico">
+    <h4 id="info"> Informações Básicas</h4>
+    <h2>Nome: Sandro Cardoso abe</h2>
+    <h3> E-mail: alexandro@gmail.com</h3>
+    <div class="field">
+        
+        <span class="cellular-label">Celular:</span>
+        <span class="cellular-info">(16)99428-4132</span>
+        <span class="edit-icon">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAX9JREFUSEu1lbtKBEEQRc8qpkbCgoovEB9gYGKg4uMrTPwBf8BswdzcPxD8DBU1VxAR34GKaCTm2leql6GdGbtndyYZaIZzb92qrmlQ89OomU83BPqdyR2gF2gBn1nTnQoMACfAlEFvgDXgxYt0IiD4ETALPBhwHLgH5n0lVQWyzr1raRwCk8A2sKuDKgJFsXRFQPBjYAZ4BL4BH0sPMGbnc8BXagVZ50/Akgn4WMTz58+pTc6DC1J03p7UmB40bVo0ipqQFSAKHhOR4GfAhMEXgTcgK/onltiLVgb3oqXwsgqy8Gtg1ZwP2RSpon/hRQIhfBn4AAQ/BUZj4UUCF4Dm+NI1dx14B4at0XJ+ZxW1R7FsI4dTNA1cmWNdJjnX5dHOGQFubZlFwfMq2AL23D7Zd7BNi0OxKB6NqJ+i6N9IWMGBq2DDGqn9vgD0AVpoavRrNNk+DAVU+mAAkXM1OhmeF5HiUPbKXDtG73PbOanmf7+PWRWVwKnLrrJI7RX8AGaFXhn8IYGaAAAAAElFTkSuQmCC" alt="Editar Celular"/>
+    </span>
+    </div>
+    
+    <h4 id="info2"> Informações Detalhadas</h4>
+    <div class="detalhadas">
+
+    <h3>Cep: 14620-000</h3>
+    <h3>País: Brasil</h3>
+    <h3>Estado: São Paulo</h3>
+    <h3>Cidade: Orlândia</h3>
+    <h3>Bairro: Centro </h3>
+    <h3>Rua: 1</h3>
+    <h3>Número: 154</h3> 
+    </div>
+    
+    
+    <div class="btn-container">
+        <button class="btn btn1"><b>Deslogar-se</b></button>
+        <a id="alterar" href="google.com">Alterar Senha</a>
+    </div>
+
+    </div>
+</div>
+</div>
+<script>
+    function toggleSidebar() {
+        const sidebar = document.getElementById("sidebar");
+        sidebar.classList.toggle("open");
+    }
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
